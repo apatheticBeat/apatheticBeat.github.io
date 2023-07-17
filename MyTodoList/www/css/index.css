@@ -1,0 +1,32 @@
+button {
+
+    height: 50px;
+    width: 80px;
+
+}
+
+html {
+
+    font-family: 'Sans Serif';
+
+}
+
+body {
+
+    background-color: black;
+
+}
+
+table {
+
+    border: 1px solid yellow;
+    width: auto;
+    background-color:antiquewhite;
+
+}
+
+button {
+
+    color: red;
+
+}

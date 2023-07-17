@@ -1,0 +1,23 @@
+p {
+
+    color: blueviolet;
+
+    font-size: 24px;
+
+}
+
+#myId {
+
+    color: rebeccapurple;
+
+    font-family: 'Comic Sans MS', 'Sans Serif Collection';
+
+}
+
+/* This is my comment!*/
+
+.myClass {
+
+    color: olive;
+
+}
