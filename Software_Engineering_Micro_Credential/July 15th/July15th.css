@@ -1,0 +1,62 @@
+.mainrow {
+    border: 3px solid palevioletred;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.sub:nth-child(1) {
+    background-color: aqua;
+}
+
+.sub:nth-child(2) {
+    background-color: rgb(68, 255, 0);
+}
+
+.sub:nth-child(3) {
+    background-color: rgb(255, 0, 115);
+}
+
+
+header {
+    background-color: aqua;
+    height: 100px;
+}
+
+    header div {
+        background-color: bisque;
+        width: 30%;
+        height: 100%;
+        float: left;
+        margin-right: 3%;
+        animation: logoanimi 2s infinite;
+    }
+
+        header div img {
+            width: 100%;
+            height: 100%
+        }
+
+    header h1 {
+        background-color: rgb(223, 130, 16);
+        width: 60%;
+        float: left;
+        margin-bottom: 1%;
+        animation: titleanimi 2s;
+    }
+
+    header h2 {
+        background-color: rgb(250, 196, 255);
+        width: 60%;
+        float: left;
+        animation: subtitleanimi 2s;
+    }
+
+@keyframes logoanimi {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

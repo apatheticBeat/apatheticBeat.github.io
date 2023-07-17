@@ -1,0 +1,60 @@
+body {
+    color: black;
+    font-family: verdana, sans-serif, helvetica;
+    font-size: 12px;
+    line-height: 1.42857143;
+    background: rgb(26, 26, 26);
+}
+
+img {
+    border: none;
+    vertical-align: middle
+}
+
+.spoiler {
+    color: black;
+    background: black;
+    cursor: text;
+}
+
+    .spoiler a {
+        color: black;
+        background: black;
+    }
+
+    .spoiler:hover {
+        color: white;
+    }
+
+table {
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 16px 23px 16px;
+        text-decoration: none;
+    }
+
+        .topnav a:hover {
+            color: darkorange;
+        }

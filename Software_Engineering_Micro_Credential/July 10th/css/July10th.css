@@ -1,0 +1,132 @@
+body {
+    background-color: aquamarine;
+}
+/* 
+.gridbox{
+    background-color: lightcoral;
+    height:300px;
+}
+
+
+.gridbox div{
+    background-color: rgb(74, 60, 223);
+    border:3px solid red;
+    width:30%;
+    float:left;
+
+} */
+
+
+
+.gridbox {
+    background-color: lightcoral;
+    /* height:300px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3px 10px;
+    margin-bottom: 4%;
+}
+
+
+    .gridbox div {
+        background-color: rgb(185, 222, 65);
+        border: 3px dotted red;
+    }
+
+
+
+
+
+
+.flexbox {
+    margin-top: 23%;
+    background-color: rgb(128, 160, 240);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+}
+
+    .flexbox > div {
+        width: 24%;
+        /* border:3px dotted red; */
+        background-color: antiquewhite;
+        /* flex:;
+    order:;
+    align-self: ; */
+    }
+
+.sub5 {
+    background-color: brown;
+    width: 30%;
+    height: 24px;
+}
+
+.sub6 {
+    background-color: rgb(68, 136, 220);
+    border: 4px solid black;
+    width: 100px;
+}
+
+/*  */
+
+
+.onebythree {
+    text-align: center;
+}
+
+    .onebythree div {
+        border: 4px solid rgb(185, 222, 65);
+        background-color: blanchedalmond;
+    }
+
+@media screen and (max-width:1000px) {
+
+    body {
+        background-color: lightpink;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+
+    .onebythree div {
+        width: 30%;
+        float: left;
+    }
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+
+    section {
+        border: 10px solid darkolivegreen;
+    }
+}
+
+
+.herobox {
+    position: relative;
+    background-color: aquamarine;
+    height: 300px;
+}
+
+    .herobox img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .herobox div {
+        left: 10%;
+        position: absolute;
+        top: 30%;
+        background-color: rgba(139, 138, 52, 0.8);
+        padding: 4%;
+        border-radius: 10px;
+        color: aliceblue;
+        font-weight: bold;
+        width: 30%;
+    }

@@ -1,0 +1,201 @@
+.menu1 {
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
+
+
+.menu2 {
+    background-color: aquamarine;
+    height: 33px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+    .menu2 a {
+        padding: 3%;
+        text-decoration: none;
+    }
+
+
+        .menu2 a:hover {
+            background-color: orange;
+        }
+
+
+
+
+.menu3 {
+    background-color: lightseagreen;
+    height: 48px;
+    text-align: center;
+    /* list-style-type: none; */
+}
+
+    .menu3 li {
+        display: inline;
+        margin-left: 8%;
+    }
+
+        .menu3 li a {
+            display: inline-block;
+            color: rgb(15, 2, 28);
+            padding: 16px 34px;
+            text-decoration: none;
+        }
+
+
+            .menu3 li a:hover {
+                background-color: orange;
+            }
+
+
+
+
+
+.menu4 {
+    width: 28%;
+    text-align: center;
+    /* list-style-type: none; */
+}
+
+    .menu4 li {
+        margin-left: 8%;
+        background-color: rgb(89, 219, 77);
+        list-style-type: none;
+    }
+
+        .menu4 li a {
+            display: block;
+            color: rgb(15, 2, 28);
+            padding: 16px 50px;
+            text-decoration: none;
+        }
+
+
+            .menu4 li a:hover {
+                background-color: orange;
+            }
+
+
+.smallimg {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.imgbox {
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+    .imgbox img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+.row {
+    height: 300px;
+    background-color: bisque;
+    padding: 4%;
+}
+
+.sub {
+    border: 3px solid orangered;
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+}
+/* nav{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav a{
+    background-color: rgb(36, 71, 59);
+    color:wheat;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 4px;
+} */
+
+
+.summerstyle {
+    color: aquamarine;
+    background-color: lightcoral;
+    border: 3px solid green;
+}
+
+.fontstlye {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+.p1 {
+    color: lightgreen;
+    background-color: rgb(191, 91, 237);
+}
+
+.p2 {
+    color: lightgreen;
+    background-color: rgb(191, 91, 237);
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.p3 {
+    color: lightgreen;
+    background-color: rgb(191, 91, 237);
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: 3px solid rgb(60, 133, 228);
+    margin: 2%;
+    padding-left: 10%;
+}
+
+.p4 {
+    color: lightgreen;
+    background-color: rgb(191, 91, 237);
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: 3px solid rgb(60, 133, 228);
+    margin: 2%;
+    padding-left: 10%;
+    /* box-shadow: ; */
+}
+
+
+
+/* 
+.p1,.p2,.p3{
+    color:lightgreen;
+    background-color: rgb(191, 91, 237);
+}
+
+.p2,.p3{
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+} */
+
+
+
+.colorinfo {
+    color: lightgreen;
+    background-color: rgb(191, 91, 237);
+}
+
+.fontino {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
