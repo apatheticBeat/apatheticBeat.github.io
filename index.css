@@ -4,7 +4,7 @@ body {
     margin: auto;
     width: auto;
     padding: 15px;
-    background-image: url(Spooky.jpg);
+    background-image: url(/Spooky.jpg);
     background-repeat: repeat;
     background-position: left;
     font-size: 12px;
